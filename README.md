@@ -1,7 +1,7 @@
 jsonenc.hpp
 ===========
 
-A minimal JSON encoder for STL types. Currently supports maps, vectors, pairs and any
+A minimal JSON header-only encoder for STL types. Currently supports maps, vectors, pairs and any
 nested variation of those.
 For example, a `map<int, vector<string>>` X; can be used direclty with the stream operator
 `jsonstream << X;`

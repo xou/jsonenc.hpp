@@ -11,7 +11,7 @@
 #endif
 
 template<class S>
-class jsonstream : public S {
+class jsonstream {
   S& mem;
 public:
   jsonstream(S& c) : mem(c) { };
